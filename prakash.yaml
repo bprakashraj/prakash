@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: this pod install through the jenkins
+  labels:
+    type: production
+spec:
+  containers:
+    - name: mycontainer
+      image: nginx
